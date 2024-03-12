@@ -9,7 +9,18 @@ body {
     header {
         display: flex;
         align-items: center;
-        background:#0cbe9b;
+        background-image:url(https://www.polynesianhalekuai.com/cdn/shop/files/FDAFA5B1-9CDF-48F7-A272-5EDDFFF16C88.jpg?v=1696206113&width=823);
+        background-size: cover;
+        color: black;
+        padding:20px;
+        display:flex;
+        justify-content: space between;
+        align items: center;
+        font size: xx-large;
+    }
+
+    .logo {
+      
     }
     header h1{
         font-family: "Shadows Into Light", cursive;
@@ -18,7 +29,7 @@ body {
         color:black;
     }
     nav {
-        background-color: #0a85d8;
+        background-color: indianred;
         border-top: solid black 1px;
         border-bottom: solid black 1px;
         display:flex;/* Display the children of this element as flexible boxes*/
@@ -38,10 +49,10 @@ body {
 
     
     nav a:hover{
-       color: red;
+       color: black;
     }
     footer{
-        background-color: #0a85d8; /* background or background color both work*/
+        background-color:indianred; /* background or background color both work*/
         position:fixed;/* fix to the viewport */
         bottom:0; /* Start 0 pixels from bottom of viewport*/
         left: 0;/* Start 0 pixels from left of viewport*/
